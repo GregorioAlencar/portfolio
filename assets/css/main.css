@@ -1325,7 +1325,7 @@ section,
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: #0d6efd;
+  background-color: var(--accent-color);
   color: #fff;
   border: none;
   width: 32px;
@@ -1360,7 +1360,8 @@ section,
   flex-grow: 1;
 }
 
-.link {
+.btn.btn-primary.btn-sm {
+  background-color: var(--accent-color);
   margin: 0px 0px 20px 18px;
 }
 
