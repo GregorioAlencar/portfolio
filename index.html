@@ -1,456 +1,1084 @@
-<!DOCTYPE html>
-<html lang="pt-br"> <!-- Alterado para pt-br para consistência -->
+<!doctype html>
+<html lang="pt-br">
+  <!-- Alterado para pt-br para consistência -->
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Portfólio - Gregório Alencar</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Portfólio - Gregório Alencar</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/portfolio/favicon-16x16.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/portfolio/favicon-32x32.png">
-  <link rel="icon" type="image/png" href="assets/img/portfolio/favicon.ico">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/img/portfolio/favicon-16x16.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/img/portfolio/favicon-32x32.png"
+    />
+    <link rel="icon" type="image/png" href="assets/img/portfolio/favicon.ico" />
 
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet">
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
 
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
-  <link href="assets/css/main.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet" />
 
-  <!-- =======================================================
+    <!-- =======================================================
   * Nome do Template: iPortfolio
   * URL do Template: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
   * Atualizado: 29 Jun 2024 com Bootstrap v5.3.3
   * Autor: BootstrapMade.com
   * Licença: https://bootstrapmade.com/license/
   ======================================================== -->
-</head>
+  </head>
 
-<body class="index-page">
+  <body class="index-page">
+    <header id="header" class="header dark-background d-flex flex-column">
+      <i class="header-toggle d-xl-none bi bi-list"></i>
 
-  <header id="header" class="header dark-background d-flex flex-column">
-    <i class="header-toggle d-xl-none bi bi-list"></i>
-
-    <div class="profile-img">
-      <img src="assets/img/portfolio/profile.jpg" alt="" class="img-fluid rounded-circle">
-    </div>
-
-    <a href="index.html" class="logo d-flex align-items-center justify-content-center">
-      <h1 class="sitename">Gregório Alencar</h1>
-    </a>
-
-    <div class="social-links text-center">
-      <a href="https://www.linkedin.com/in/gregorio-alencar-711813110/" class="linkedin" target="_blank"><i
-          class="bi bi-linkedin"></i></a>
-      <a href="https://www.facebook.com/raymond.allencar?mibextid=ZbWKwL" class="facebook" target="_blank"><i
-          class="bi bi-facebook"></i></a>
-      <a href="https://www.instagram.com/gregorioalencar07?igsh=aDh1N2J1Z3A2cmll" class="instagram" target="_blank"><i
-          class="bi bi-instagram"></i></a>
-    </div>
-
-    <nav id="navmenu" class="navmenu">
-      <ul>
-        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Início</a></li>
-        <li><a href="#about"><i class="bi bi-person navicon"></i> Sobre</a></li>
-        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Currículo</a></li>
-        <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contato</a></li>
-      </ul>
-    </nav>
-
-  </header>
-
-  <main class="main">
-    <section id="hero" class="hero section dark-background">
-
-      <img src="assets/img/portfolio/photo-beach2.jpg" alt="" data-aos="fade-in" class="">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <h2>Gregório Alencar</h2>
-        <p>Eu sou <span class="typed"
-            data-typed-items="Estudante, Software Engineer, Product Owner">Estudante</span><span
-            class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span
-            class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+      <div class="profile-img">
+        <img
+          src="assets/img/portfolio/profile.jpg"
+          alt=""
+          class="img-fluid rounded-circle"
+        />
       </div>
 
-    </section>
+      <a
+        href="index.html"
+        class="logo d-flex align-items-center justify-content-center"
+      >
+        <h1 class="sitename">Gregório Alencar</h1>
+      </a>
 
-    <section id="about" class="about section">
-
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Sobre</h2>
-        <p>Sou estudante de Análise e Desenvolvimento de Sistemas, atualmente no 3° período, com previsão de conclusão
-          em dezembro de 2026. Tenho experiência prática na área de desenvolvimento de software, com ênfase em
-          aplicações FullStack, atuando também como gestor de produtos em projetos de tecnologia. Me dedico a unir
-          conhecimento técnico e visão de negócio para entregar soluções eficientes e alinhadas às necessidades do
-          usuário.
-
-          Atuo desde 2024 na LeadSoft Soluções Web, onde desempenho um papel duplo como desenvolvedor e gestor de
-          produtos, contribuindo com a definição de requisitos, desenvolvimento de funcionalidades e acompanhamento do
-          ciclo de vida do produto. Também tive a oportunidade de estagiar como desenvolvedor FrontEnd na Undefined
-          Ltda, onde aprofundei meus conhecimentos em interfaces e usabilidade. Participei de equipes ágeis e projetos
-          multidisciplinares, fortalecendo minhas habilidades de comunicação e trabalho em equipe.
-
-          Além da formação acadêmica, busquei aprimoramento contínuo por meio de cursos na Udemy e Alura, voltados ao
-          desenvolvimento FrontEnd e gestão de produtos. Tenho como objetivo profissional consolidar minha carreira como
-          desenvolvedor FullStack, atuando em projetos desafiadores, com foco em inovação, metodologias ágeis e melhoria
-          contínua. Estou em constante aprendizado para evoluir tecnicamente e contribuir cada vez mais com soluções
-          robustas e funcionais.</p>
+      <div class="social-links text-center">
+        <a
+          href="https://www.linkedin.com/in/gregorio-alencar-711813110/"
+          class="linkedin"
+          target="_blank"
+          ><i class="bi bi-linkedin"></i
+        ></a>
+        <a
+          href="https://www.facebook.com/raymond.allencar?mibextid=ZbWKwL"
+          class="facebook"
+          target="_blank"
+          ><i class="bi bi-facebook"></i
+        ></a>
+        <a
+          href="https://www.instagram.com/gregorioalencar07?igsh=aDh1N2J1Z3A2cmll"
+          class="instagram"
+          target="_blank"
+          ><i class="bi bi-instagram"></i
+        ></a>
       </div>
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li>
+            <a href="#hero" class="active"
+              ><i class="bi bi-house navicon"></i>Início</a
+            >
+          </li>
+          <li>
+            <a href="#about"><i class="bi bi-person navicon"></i> Sobre</a>
+          </li>
+          <li>
+            <a href="#resume"
+              ><i class="bi bi-file-earmark-text navicon"></i> Currículo</a
+            >
+          </li>
+          <li>
+            <a href="#contact"
+              ><i class="bi bi-envelope navicon"></i> Contato</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-        <div class="row gy-4 justify-content-center">
-          <div class="col-lg-4">
-            <img src="assets/img/my-profile-img.jpg" class="img-fluid" alt="">
+    <main class="main">
+      <section id="hero" class="hero section dark-background">
+        <img
+          src="assets/img/portfolio/photo-beach2.jpg"
+          alt=""
+          data-aos="fade-in"
+          class=""
+        />
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <h2>Gregório Alencar</h2>
+          <p>
+            Eu sou
+            <span
+              class="typed"
+              data-typed-items="Estudante, Software Engineer, Product Owner"
+              >Estudante</span
+            ><span
+              class="typed-cursor typed-cursor--blink"
+              aria-hidden="true"
+            ></span
+            ><span
+              class="typed-cursor typed-cursor--blink"
+              aria-hidden="true"
+            ></span>
+          </p>
+        </div>
+      </section>
+
+      <section id="about" class="about section">
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Sobre</h2>
+          <p>
+            Sou estudante de Análise e Desenvolvimento de Sistemas, atualmente
+            no 3° período, com previsão de conclusão em dezembro de 2026. Tenho
+            experiência prática na área de desenvolvimento de software, com
+            ênfase em aplicações FullStack, atuando também como gestor de
+            produtos em projetos de tecnologia. Me dedico a unir conhecimento
+            técnico e visão de negócio para entregar soluções eficientes e
+            alinhadas às necessidades do usuário. Atuo desde 2024 na LeadSoft
+            Soluções Web, onde desempenho um papel duplo como desenvolvedor e
+            gestor de produtos, contribuindo com a definição de requisitos,
+            desenvolvimento de funcionalidades e acompanhamento do ciclo de vida
+            do produto. Também tive a oportunidade de estagiar como
+            desenvolvedor FrontEnd na Undefined Ltda, onde aprofundei meus
+            conhecimentos em interfaces e usabilidade. Participei de equipes
+            ágeis e projetos multidisciplinares, fortalecendo minhas habilidades
+            de comunicação e trabalho em equipe. Além da formação acadêmica,
+            busquei aprimoramento contínuo por meio de cursos na Udemy e Alura,
+            voltados ao desenvolvimento FrontEnd e gestão de produtos. Tenho
+            como objetivo profissional consolidar minha carreira como
+            desenvolvedor FullStack, atuando em projetos desafiadores, com foco
+            em inovação, metodologias ágeis e melhoria contínua. Estou em
+            constante aprendizado para evoluir tecnicamente e contribuir cada
+            vez mais com soluções robustas e funcionais.
+          </p>
+        </div>
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row gy-4 justify-content-center">
+            <div class="col-lg-4">
+              <img
+                src="assets/img/my-profile-img.jpg"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+            <div class="col-lg-8 content">
+              <h2>Desenvolvedor FullStack</h2>
+              <p class="fst-italic py-3">Um pouco mais sobre mim.</p>
+              <div class="row">
+                <div class="col-lg-6">
+                  <ul>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Aniversário:</strong> <span>27 Jun 1995</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Telefone:</strong> <span>(41) 987-311-710</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Cidade Natal:</strong> <span>Manaus - AM</span>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-lg-6">
+                  <ul>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Idade:</strong>
+                      <span id="idade">Calculando...</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Especialidade:</strong>
+                      <span>Desenvolvimento de Software</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>E-mail:</strong> <span>rgasti@outlook.com</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="col-lg-8 content">
-            <h2>Desenvolvedor FullStack</h2>
-            <p class="fst-italic py-3">
-              Um pouco mais sobre mim.
-            </p>
-            <div class="row">
-              <div class="col-lg-6">
+        </div>
+      </section>
+
+      <section id="skills" class="skills section light-background">
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Habilidades</h2>
+          <p>Algumas das minhas habilidades</p>
+        </div>
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row skills-content skills-animation">
+            <div class="col-lg-6">
+              <div class="progress">
+                <span class="skill"
+                  ><span>HTML</span> <i class="val">98%</i></span
+                >
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="98"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              <div class="progress">
+                <span class="skill"
+                  ><span>CSS</span> <i class="val">85%</i></span
+                >
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="85"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill"
+                  ><span>JavaScript</span> <i class="val">70%</i></span
+                >
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="70"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill"
+                  ><span>ReactJs</span> <i class="val">65%</i></span
+                >
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="65"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill"
+                  ><span>Scrum</span> <i class="val">70%</i></span
+                >
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="70"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <div class="progress">
+                <span class="skill"
+                  ><span>NextJS</span> <i class="val">45%</i></span
+                >
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="45"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill"
+                  ><span>TypeScript</span> <i class="val">25%</i></span
+                >
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="25"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill"
+                  ><span>NodeJS</span> <i class="val">45%</i></span
+                >
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="45"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill"
+                  ><span>C#</span> <i class="val">20%</i></span
+                >
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="20"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill"
+                  ><span>Gestão de Produtos</span> <i class="val">65%</i></span
+                >
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="65"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill"
+                  ><span>Git Flow</span> <i class="val">60%</i></span
+                >
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="60"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="resume" class="resume section">
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Currículo</h2>
+          <p>
+            Desenvolvedor de software motivado e entusiasmado, apaixonado por
+            aprender e crescer na indústria de tecnologia.
+          </p>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
+              <h3 class="resume-title">Sumário</h3>
+
+              <div class="resume-item pb-0">
+                <h4></h4>
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Aniversário:</strong> <span>27 Jun 1995</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Telefone:</strong> <span>(41) 987-311-710</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Cidade Natal:</strong> <span>Manaus - AM</span></li>
+                  <li>Curitiba, PR - BR</li>
+                  <li>(41) 987-311-710</li>
+                  <li>rgasti@outlook.com</li>
                 </ul>
               </div>
-              <div class="col-lg-6">
+
+              <h3 class="resume-title">Formação</h3>
+              <div class="resume-item">
+                <h4>Tecnólogo em Análise e Desenvolvimento de Sistemas</h4>
+                <h5>2024 - Atualmente</h5>
+                <p><em>Descomplica UniAmérica, BR</em></p>
+              </div>
+
+              <h3 class="resume-title">Cursos Complementares</h3>
+              <div class="resume-item">
+                <h4>Formação em Desenvolvimento FrontEnd</h4>
+                <h5>Jan/2023 - Jul/2023</h5>
+                <p><em>Udemy</em></p>
+              </div>
+              <div class="resume-item pb-0">
+                <h4>Formação em Gestão de Produtos</h4>
+                <h5>Jun/2024 - Fev/2025</h5>
+                <p><em>Alura</em></p>
+              </div>
+
+              <h3 class="resume-title">Experiência Profissional</h3>
+              <div class="resume-item">
+                <h4>Estagiário em Desenvolvimento FrontEnd</h4>
+                <h5>Ago/2023 – Nov/2023</h5>
+                <p><em>Undefined Ltda</em></p>
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Idade:</strong> <span id="idade">Calculando...</span>
+                  <li>
+                    Implementação de interfaces responsivas com HTML, CSS e
+                    JavaScript.
                   </li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Especialidade:</strong> <span>Desenvolvimento de
-                      Software</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>E-mail:</strong> <span>rgasti@outlook.com</span></li>
+                  <li>
+                    Apoio na manutenção de sistemas existentes e correção de
+                    bugs.
+                  </li>
+                  <li>
+                    Integração com APIs REST para consumo de dados em tempo
+                    real.
+                  </li>
+                  <li>
+                    Colaboração em equipe multidisciplinar em projetos ágeis.
+                  </li>
+                  <li>
+                    Participação em testes de usabilidade e validação de layout
+                    com usuários.
+                  </li>
+                </ul>
+              </div>
+
+              <div class="resume-item">
+                <h4>Desenvolvedor FullStack e Gestor de Produtos</h4>
+                <h5>Nov/2024 – Ago/2025</h5>
+                <p><em>LeadSoft Soluções Web</em></p>
+                <ul>
+                  <li>
+                    Desenvolvimento de aplicações web utilizando tecnologias
+                    FullStack.
+                  </li>
+                  <li>
+                    Gerenciamento de backlog e definição de prioridades de
+                    produto.
+                  </li>
+                  <li>
+                    Participação em reuniões de levantamento de requisitos com
+                    stakeholders.
+                  </li>
+                  <li>
+                    Aplicação de metodologias ágeis como Scrum no dia a dia da
+                    equipe.
+                  </li>
+                  <li>
+                    Acompanhamento do ciclo de vida do produto, desde a
+                    concepção até a entrega.
+                  </li>
+                </ul>
+              </div>
+
+              <div class="resume-item pb-0">
+                <h4>Desenvolvedor FullStack</h4>
+                <h5>Set/2025 – Atualmente</h5>
+                <p><em>Fiestou Ltda</em></p>
+                <ul>
+                  <li>
+                    Desenvolvimento de aplicações web utilizando tecnologias
+                    FullStack.
+                  </li>
+                  <li>
+                    Gerenciamento de backlog e definição de prioridades de
+                    produto.
+                  </li>
+                  <li>
+                    Participação em reuniões de levantamento de requisitos com
+                    stakeholders.
+                  </li>
+                  <li>
+                    Aplicação de metodologias ágeis como Scrum no dia a dia da
+                    equipe.
+                  </li>
+                  <li>
+                    Acompanhamento do ciclo de vida do produto, desde a
+                    concepção até a entrega.
+                  </li>
                 </ul>
               </div>
             </div>
           </div>
         </div>
+      </section>
 
-      </div>
-
-    </section>
-
-    <section id="skills" class="skills section light-background">
-
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Habilidades</h2>
-        <p>Algumas das minhas habilidades</p>
-      </div>
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row skills-content skills-animation">
-
-          <div class="col-lg-6">
-
-            <div class="progress">
-              <span class="skill"><span>HTML</span> <i class="val">98%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-            <div class="progress">
-              <span class="skill"><span>CSS</span> <i class="val">85%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill"><span>JavaScript</span> <i class="val">70%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill"><span>ReactJs</span> <i class="val">65%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill"><span>Scrum</span> <i class="val">70%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-
-          </div>
-
-          <div class="col-lg-6">
-
-            <div class="progress">
-              <span class="skill"><span>NextJS</span> <i class="val">45%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill"><span>TypeScript</span> <i class="val">25%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill"><span>NodeJS</span> <i class="val">45%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill"><span>C#</span> <i class="val">20%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill"><span>Gestão de Produtos</span> <i class="val">65%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill"><span>Git Flow</span> <i class="val">60%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-
-          </div>
-
+      <section id="projects" class="projects section">
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Projetos pela LeadSoft</h2>
         </div>
 
-      </div>
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row gy-4">
+            <h4 class="card-title">
+              Projeto pela empresa: LeadSoft Soluções Web
+            </h4>
+            <!-- Projeto 1 - Site da LeadSoft -->
+            <div class="col-lg-4 col-md-6">
+              <div class="card h-100">
+                <!-- imagens -->
+                <div class="carousel">
+                  <button class="arrow left">&#10094;</button>
 
-    </section>
+                  <div class="carousel-track">
+                    <img src="assets/img/projects/leadsoft-website/1.jpg" />
+                    <img src="assets/img/projects/leadsoft-website/2.jpg" />
+                    <img src="assets/img/projects/leadsoft-website/3.jpg" />
+                    <img src="assets/img/projects/leadsoft-website/4.jpg" />
+                    <img src="assets/img/projects/leadsoft-website/5.jpg" />
+                    <img src="assets/img/projects/leadsoft-website/6.jpg" />
+                    <img src="assets/img/projects/leadsoft-website/7.jpg" />
+                    <img src="assets/img/projects/leadsoft-website/8.jpg" />
+                    <img src="assets/img/projects/leadsoft-website/9.jpg" />
+                  </div>
 
-    <section id="resume" class="resume section">
+                  <button class="arrow right">&#10095;</button>
+                </div>
+                <!-- Textos e botões -->
+                <div class="card-container">
+                  <!-- textos -->
+                  <div class="card-body">
+                    <h5>Site Corporativo – LeadSoft</h5>
+                    <ul class="lista-servicos">
+                      <li>
+                        Desenvolvimento e manutenção de páginas institucionais
+                      </li>
+                      <li>Implementação de layouts responsivos</li>
+                      <li>Ajustes de SEO e performance</li>
+                      <li>Correções e melhorias contínuas</li>
+                    </ul>
+                    <p>
+                      <strong>Tecnologias:</strong> HTML, Styled Component,
+                      JavaScript, Next.js, Versionamento com Git, Azure DevOps e
+                      Scrum.
+                    </p>
+                    <p>
+                      <strong>Resultados:</strong> Entrega de MVP funcional, com
+                      priorização de requisitos alinhada com stakeholders.
+                    </p>
+                  </div>
+                  <!-- Botão de link -->
+                  <div class="link">
+                    <a
+                      href="https://www.leadsoft.inf.br/"
+                      class="btn btn-primary btn-sm"
+                      target="_blank"
+                      ><i class="bi bi-link-45deg"></i> Ver Projeto</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Projeto 2 - Ebbi Edu -->
+            <div class="col-lg-4 col-md-6">
+              <div class="card h-100">
+                <!-- imagens -->
+                <div class="carousel">
+                  <button class="arrow left">&#10094;</button>
 
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Currículo</h2>
-        <p>Desenvolvedor de software motivado e entusiasmado, apaixonado por aprender e crescer na indústria de
-          tecnologia.</p>
-      </div>
+                  <div class="carousel-track">
+                    <img src="assets/img/projects/castrol-website/1.jpg" />
+                    <img src="assets/img/projects/castrol-website/2.jpg" />
+                    <img src="assets/img/projects/castrol-website/3.jpg" />
+                    <img src="assets/img/projects/castrol-website/4.jpg" />
+                    <img src="assets/img/projects/castrol-website/5.jpg" />
+                    <img src="assets/img/projects/castrol-website/6.jpg" />
+                    <img src="assets/img/projects/castrol-website/7.jpg" />
+                    <img src="assets/img/projects/castrol-website/8.jpg" />
+                    <img src="assets/img/projects/castrol-website/9.jpg" />
+                  </div>
 
+                  <button class="arrow right">&#10095;</button>
+                </div>
+                <!-- Textos e botões -->
+                <div class="card-container">
+                  <!-- textos -->
+                  <div class="card-body">
+                    <h5>Site Corporativo – Castrol Brasil</h5>
+                    <ul class="lista-servicos">
+                      <li>Atuação no frontend do site institucional</li>
+                      <li>Ajustes visuais e correções de layout</li>
+                      <li>Colaboração com time em ambiente corporativo</li>
+                      <li>Manutenção de componentes existentes</li>
+                      <li>Reuniões com stakeholders</li>
+                    </ul>
+                    <p>
+                      <strong>Tecnologias:</strong> Adobe Experience Manager
+                      (AEM).
+                    </p>
+                    <p>
+                      <strong>Resultados:</strong> Entrega do site funcional,
+                      com priorização de requisitos alinhada com stakeholders.
+                    </p>
+                  </div>
+                  <!-- Botão de link -->
+                  <div class="link">
+                    <a
+                      href="https://www.castrol.com/pt_br/brazil/home.html"
+                      class="btn btn-primary btn-sm"
+                      target="_blank"
+                      ><i class="bi bi-link-45deg"></i> Ver Projeto</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Projeto 3 - Castrol Brasil -->
+            <div class="col-lg-4 col-md-6">
+              <div class="card h-100">
+                <!-- imagens -->
+                <div class="carousel">
+                  <button class="arrow left">&#10094;</button>
+
+                  <div class="carousel-track">
+                    <img src="assets/img/projects/ebbi-edu/1.jpg" />
+                    <img src="assets/img/projects/ebbi-edu/2.jpg" />
+                    <img src="assets/img/projects/ebbi-edu/3.jpg" />
+                    <img src="assets/img/projects/ebbi-edu/4.jpg" />
+                    <img src="assets/img/projects/ebbi-edu/5.jpg" />
+                    <img src="assets/img/projects/ebbi-edu/6.jpg" />
+                    <img src="assets/img/projects/ebbi-edu/7.jpg" />
+                    <img src="assets/img/projects/ebbi-edu/8.jpg" />
+                    <img src="assets/img/projects/ebbi-edu/9.jpg" />
+                  </div>
+
+                  <button class="arrow right">&#10095;</button>
+                </div>
+                <!-- Textos e botões -->
+                <div class="card-container">
+                  <div class="card-body">
+                    <h5>EBBI Edu (Sistema Web)</h5>
+                    <ul class="lista-servicos">
+                      <li>Desenvolvimento de interfaces para sistema web</li>
+                      <li>Integração com APIs REST</li>
+                      <li>Manutenção e evolução de funcionalidades internas</li>
+                      <li>Trabalho em equipe utilizando metodologia ágil</li>
+                      <li>Participação em reuniões de alinhamento</li>
+                      <li>Correção de bugs e melhorias contínuas</li>
+                    </ul>
+                    <p>
+                      <strong>Tecnologias:</strong> HTML, Styled Component,
+                      JavaScript, Next.js, API REST, .Net, RavenDB,
+                      Versionamento com Git, Azure DevOps e Scrum.
+                    </p>
+                    <p>
+                      <strong>Resultados:</strong> Entrega do projeto funcional,
+                      com o intuito de atender às necessidades do sistema.
+                    </p>
+                  </div>
+                </div>
+                <div class="link">
+                  <a
+                    href="https://www.ebbi.com.br/"
+                    class="btn btn-primary btn-sm"
+                    target="_blank"
+                    ><i class="bi bi-link-45deg"></i> Ver Projeto</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- teste -->
+
+        <div class="container section-title" data-aos="fade-up">
+          <h2 style="padding-top: 39px">Projetos como CNPJ</h2>
+        </div>
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row gy-4">
+            <h4 class="card-title">
+              Projetos realizados diretamente com o cliente após o encerramento
+              da LeadSoft
+            </h4>
+            <!-- Projeto 1 - Site da LeadSoft -->
+            <div class="col-lg-4 col-md-6">
+              <div class="card h-100">
+                <!-- imagens -->
+                <div class="carousel">
+                  <button class="arrow left">&#10094;</button>
+
+                  <div class="carousel-track">
+                    <img src="assets/img/projects/hotel-morada-do-sol/1.jpg" />
+                    <img src="assets/img/projects/hotel-morada-do-sol/2.jpg" />
+                    <img src="assets/img/projects/hotel-morada-do-sol/3.jpg" />
+                    <img src="assets/img/projects/hotel-morada-do-sol/4.jpg" />
+                    <img src="assets/img/projects/hotel-morada-do-sol/5.jpg" />
+                    <img src="assets/img/projects/hotel-morada-do-sol/6.jpg" />
+                    <img src="assets/img/projects/hotel-morada-do-sol/7.jpg" />
+                    <img src="assets/img/projects/hotel-morada-do-sol/8.jpg" />
+                    <img src="assets/img/projects/hotel-morada-do-sol/9.jpg" />
+                  </div>
+
+                  <button class="arrow right">&#10095;</button>
+                </div>
+                <!-- Textos e botões -->
+                <div class="card-container">
+                  <!-- textos -->
+                  <div class="card-body">
+                    <h5>Projeto freelance</h5>
+                    <ul class="lista-servicos">
+                      <li>
+                        Desenvolvimento de site institucional para pousada, com
+                        foco em apresentação do negócio, informações para
+                        hóspedes e contato.
+                      </li>
+                      <li>Desenvolvimento completo do frontend</li>
+                      <li>Estruturação das páginas</li>
+                      <li>Correções e melhorias contínuas</li>
+                      <li>Publicação e entrega do projeto ao cliente</li>
+                    </ul>
+                    <p><strong>Tecnologias:</strong>WordPress e Elementor.</p>
+                    <p><strong>Resultados:</strong> Após o encerramento da</p>
+                  </div>
+                  <!-- Botão de link -->
+                  <div class="link">
+                    <a
+                      href="https://www.pousadamoradadosol.tur.br/"
+                      class="btn btn-primary btn-sm"
+                      target="_blank"
+                      ><i class="bi bi-link-45deg"></i> Ver Projeto</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Projeto 2 - Ebbi Edu -->
+            <div class="col-lg-4 col-md-6">
+              <div class="card h-100">
+                <!-- imagens -->
+                <div class="carousel">
+                  <button class="arrow left">&#10094;</button>
+
+                  <div class="carousel-track">
+                    <img src="assets/img/projects/castrol-website/1.jpg" />
+                    <img src="assets/img/projects/castrol-website/2.jpg" />
+                    <img src="assets/img/projects/castrol-website/3.jpg" />
+                    <img src="assets/img/projects/castrol-website/4.jpg" />
+                    <img src="assets/img/projects/castrol-website/5.jpg" />
+                    <img src="assets/img/projects/castrol-website/6.jpg" />
+                    <img src="assets/img/projects/castrol-website/7.jpg" />
+                    <img src="assets/img/projects/castrol-website/8.jpg" />
+                    <img src="assets/img/projects/castrol-website/9.jpg" />
+                  </div>
+
+                  <button class="arrow right">&#10095;</button>
+                </div>
+                <!-- Textos e botões -->
+                <div class="card-container">
+                  <!-- textos -->
+                  <div class="card-body">
+                    <h5>Fiestou — Desenvolvedor PJ</h5>
+                    <ul class="lista-servicos">
+                      <li>Evolução de funcionalidades existentes</li>
+                      <li>Implementação de novas features</li>
+                      <li>Correções de bugs e melhorias de performance</li>
+                      <li>Comunicação direta com stakeholders</li>
+                      <li>Manutenção do frontend e integração com backend</li>
+                    </ul>
+                    <p>
+                      <strong>Tecnologias:</strong> React, Next.js, TypeScript,
+                      API REST, Laravel, MySQL, Git Flow, GitHub e Scrum.
+                    </p>
+                    <p>
+                      <strong>Resultados:</strong> LeadSoft, continuei atuando
+                      diretamente no desenvolvimento da plataforma Fiestou como
+                      desenvolvedor PJ, sendo responsável por melhorias
+                      contínuas, novas funcionalidades e manutenção do sistema.
+                    </p>
+                  </div>
+                  <!-- Botão de link -->
+                  <div class="link">
+                    <a
+                      href="https://www.fiestou.com.br/"
+                      class="btn btn-primary btn-sm"
+                      target="_blank"
+                      ><i class="bi bi-link-45deg"></i> Ver Projeto</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact section">
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Contato</h2>
+        </div>
+
+        <div class="container" data-aos="fade-up" data-aos-delay="50">
+          <div class="row gy-4 section light-background">
+            <div class="col-lg-12">
+              <div class="info-wrap">
+                <div
+                  class="info-item d-flex"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                >
+                  <i class="bi bi-geo-alt flex-shrink-0"></i>
+                  <div>
+                    <h3>Endereço</h3>
+                    <p>Curitiba, PR</p>
+                  </div>
+                </div>
+
+                <div
+                  class="info-item d-flex"
+                  data-aos="fade-up"
+                  data-aos-delay="300"
+                >
+                  <i class="bi bi-telephone flex-shrink-0"></i>
+                  <div>
+                    <h3>Telefone</h3>
+                    <p>(41) 987-311-710</p>
+                  </div>
+                </div>
+
+                <div
+                  class="info-item d-flex"
+                  data-aos="fade-up"
+                  data-aos-delay="400"
+                >
+                  <i class="bi bi-envelope flex-shrink-0"></i>
+                  <div>
+                    <h3>E-mail</h3>
+                    <p>rgasti@outlook.com</p>
+                  </div>
+                </div>
+
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23651.72082167176!2d-49.25050592790737!3d-25.402405415043994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce6765e134ecf%3A0xadba3d521fd9c7f!2sBacacheri%2C%20Curitiba%20-%20PR!5e1!3m2!1spt-BR!2sbr!4v1726765969212!5m2!1spt-BR!2sbr"
+                  frameborder="0"
+                  style="border: 0; width: 100%; height: 270px"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="footer" class="footer position-relative light-background">
       <div class="container">
-
-        <div class="row">
-
-          <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="resume-title">Sumário</h3>
-
-            <div class="resume-item pb-0">
-              <h4></h4>
-              <ul>
-                <li>Curitiba, PR - BR</li>
-                <li>(41) 987-311-710</li>
-                <li>rgasti@outlook.com</li>
-              </ul>
-            </div>
-
-            <h3 class="resume-title">Formação</h3>
-            <div class="resume-item">
-              <h4>Tecnólogo em Análise e Desenvolvimento de Sistemas</h4>
-              <h5>2024 - Atualmente</h5>
-              <p><em>Descomplica UniAmérica, BR</em></p>
-            </div>
-
-            <h3 class="resume-title">Cursos Complementares</h3>
-            <div class="resume-item">
-              <h4>Formação em Desenvolvimento FrontEnd</h4>
-              <h5>Jan/2023 - Jul/2023</h5>
-              <p><em>Udemy</em></p>
-            </div>
-            <div class="resume-item pb-0">
-              <h4>Formação em Gestão de Produtos</h4>
-              <h5>Jun/2024 - Fev/2025</h5>
-              <p><em>Alura</em></p>
-            </div>
-
-            <h3 class="resume-title">Experiência Profissional</h3>
-            <div class="resume-item">
-              <h4>Estagiário em Desenvolvimento FrontEnd</h4>
-              <h5>Ago/2023 – Nov/2023</h5>
-              <p><em>Undefined Ltda</em></p>
-              <ul>
-                <li>Implementação de interfaces responsivas com HTML, CSS e JavaScript.</li>
-                <li>Apoio na manutenção de sistemas existentes e correção de bugs.</li>
-                <li>Integração com APIs REST para consumo de dados em tempo real.</li>
-                <li>Colaboração em equipe multidisciplinar em projetos ágeis.</li>
-                <li>Participação em testes de usabilidade e validação de layout com usuários.</li>
-              </ul>
-            </div>
-
-            <div class="resume-item">
-              <h4>Desenvolvedor FullStack e Gestor de Produtos</h4>
-              <h5>Nov/2024 – Ago/2025</h5>
-              <p><em>LeadSoft Soluções Web</em></p>
-              <ul>
-                <li>Desenvolvimento de aplicações web utilizando tecnologias FullStack.</li>
-                <li>Gerenciamento de backlog e definição de prioridades de produto.</li>
-                <li>Participação em reuniões de levantamento de requisitos com stakeholders.</li>
-                <li>Aplicação de metodologias ágeis como Scrum no dia a dia da equipe.</li>
-                <li>Acompanhamento do ciclo de vida do produto, desde a concepção até a entrega.</li>
-              </ul>
-            </div>
-
-            <div class="resume-item pb-0">
-              <h4>Desenvolvedor FullStack</h4>
-              <h5>Set/2025 – Atualmente</h5>
-              <p><em>Fiestou Ltda</em></p>
-              <ul>
-                <li>Desenvolvimento de aplicações web utilizando tecnologias FullStack.</li>
-                <li>Gerenciamento de backlog e definição de prioridades de produto.</li>
-                <li>Participação em reuniões de levantamento de requisitos com stakeholders.</li>
-                <li>Aplicação de metodologias ágeis como Scrum no dia a dia da equipe.</li>
-                <li>Acompanhamento do ciclo de vida do produto, desde a concepção até a entrega.</li>
-              </ul>
-            </div>
-
-          </div>
-
+        <div class="copyright text-center">
+          <p>
+            © <span>Direitos Autorais</span>
+            <strong class="px-1 sitename">iPortfolio</strong>
+            <span>Todos os Direitos Reservados</span>
+          </p>
         </div>
-
-      </div>
-
-    </section>
-
-    <section id="contact" class="contact section">
-
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Contato</h2>
-      </div>
-
-      <div class="container" data-aos="fade-up" data-aos-delay="50">
-
-        <div class="row gy-4 section light-background">
-
-          <div class="col-lg-12">
-
-            <div class="info-wrap ">
-              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
-                <i class="bi bi-geo-alt flex-shrink-0"></i>
-                <div>
-                  <h3>Endereço</h3>
-                  <p>Curitiba, PR</p>
-                </div>
-              </div>
-
-              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
-                <i class="bi bi-telephone flex-shrink-0"></i>
-                <div>
-                  <h3>Telefone</h3>
-                  <p>(41) 987-311-710</p>
-                </div>
-              </div>
-
-              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
-                <i class="bi bi-envelope flex-shrink-0"></i>
-                <div>
-                  <h3>E-mail</h3>
-                  <p>rgasti@outlook.com</p>
-                </div>
-              </div>
-
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23651.72082167176!2d-49.25050592790737!3d-25.402405415043994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce6765e134ecf%3A0xadba3d521fd9c7f!2sBacacheri%2C%20Curitiba%20-%20PR!5e1!3m2!1spt-BR!2sbr!4v1726765969212!5m2!1spt-BR!2sbr"
-                frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-          </div>
-
+        <div class="credits">
+          Projetado por <a href="https://bootstrapmade.com/">BootstrapMade</a>
         </div>
-
       </div>
+    </footer>
 
-    </section>
+    <a
+      href="#"
+      id="scroll-top"
+      class="scroll-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+    <div id="preloader"></div>
 
-  </main>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/typed.js/typed.umd.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
-  <footer id="footer" class="footer position-relative light-background">
+    <script src="assets/js/main.js"></script>
+  </body>
+  <script>
+    // Função para calcular a idade com base na data de nascimento
+    function calcularIdade(dataNascimento) {
+      const hoje = new Date();
+      const nascimento = new Date(dataNascimento);
+      let idade = hoje.getFullYear() - nascimento.getFullYear();
+      const mes = hoje.getMonth() - nascimento.getMonth();
 
-    <div class="container">
-      <div class="copyright text-center ">
-        <p>© <span>Direitos Autorais</span> <strong class="px-1 sitename">iPortfolio</strong> <span>Todos os Direitos
-            Reservados</span>
-        </p>
-      </div>
-      <div class="credits">
-        Projetado por <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div>
-    </div>
-
-  </footer>
-
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
-  <div id="preloader"></div>
-
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/typed.js/typed.umd.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-
-  <script src="assets/js/main.js"></script>
-
-</body>
-<script>
-  // Função para calcular a idade com base na data de nascimento
-  function calcularIdade(dataNascimento) {
-    const hoje = new Date();
-    const nascimento = new Date(dataNascimento);
-    let idade = hoje.getFullYear() - nascimento.getFullYear();
-    const mes = hoje.getMonth() - nascimento.getMonth();
-
-    // Ajusta a idade se o aniversário ainda não ocorreu este ano
-    if (mes < 0 || (mes === 0 && hoje.getDate() < nascimento.getDate())) {
-      idade--;
+      // Ajusta a idade se o aniversário ainda não ocorreu este ano
+      if (mes < 0 || (mes === 0 && hoje.getDate() < nascimento.getDate())) {
+        idade--;
+      }
+      return idade;
     }
-    return idade;
-  }
 
-  // Substitua '1995-06-27' pela sua data de nascimento no formato AAAA-MM-DD
-  const dataNascimento = '1995-06-27';
-  const idade = calcularIdade(dataNascimento);
+    // Substitua '1995-06-27' pela sua data de nascimento no formato AAAA-MM-DD
+    const dataNascimento = "1995-06-27";
+    const idade = calcularIdade(dataNascimento);
 
-  // Atualiza o elemento <span> com a idade calculada
-  document.getElementById('idade').textContent = idade;
-</script>
+    // Atualiza o elemento <span> com a idade calculada
+    document.getElementById("idade").textContent = idade;
 
+    document.querySelectorAll(".carousel").forEach((carousel) => {
+      const track = carousel.querySelector(".carousel-track");
+      const prev = carousel.querySelector(".arrow.left");
+      const next = carousel.querySelector(".arrow.right");
+
+      const originalImgs = Array.from(track.children);
+      const imgWidth = originalImgs[0].offsetWidth;
+      const visible = Math.floor(100 / 34);
+
+      let index = visible;
+      let startX = 0;
+      let dragging = false;
+      let autoplayInterval;
+      const autoplayDelay = 3000;
+
+      /* ==== CLONAGEM PARA LOOP ==== */
+      originalImgs.slice(-visible).forEach((img) => {
+        track.insertBefore(img.cloneNode(true), track.firstChild);
+      });
+
+      originalImgs.slice(0, visible).forEach((img) => {
+        track.appendChild(img.cloneNode(true));
+      });
+
+      const allImgs = track.children;
+
+      /* ==== MOVIMENTO ==== */
+      function move(animate = true) {
+        track.style.transition = animate ? "transform .35s ease" : "none";
+        track.style.transform = `translateX(${-index * imgWidth}px)`;
+      }
+
+      move(false);
+
+      function checkLoop() {
+        track.addEventListener(
+          "transitionend",
+          () => {
+            if (index >= allImgs.length - visible) {
+              index = visible;
+              move(false);
+            }
+            if (index <= 0) {
+              index = allImgs.length - visible * 2;
+              move(false);
+            }
+          },
+          { once: true },
+        );
+      }
+
+      /* ==== SETAS ==== */
+      next.addEventListener("click", () => {
+        index++;
+        move();
+        checkLoop();
+      });
+
+      prev.addEventListener("click", () => {
+        index--;
+        move();
+        checkLoop();
+      });
+
+      /* ==== DRAG (MOUSE) ==== */
+      track.addEventListener("mousedown", (e) => {
+        stopAutoplay();
+        dragging = true;
+        startX = e.clientX;
+        track.style.transition = "none";
+      });
+
+      window.addEventListener("mouseup", (e) => {
+        if (!dragging) return;
+        dragging = false;
+        startAutoplay();
+        const diff = e.clientX - startX;
+        if (diff < -50) index++;
+        if (diff > 50) index--;
+        move();
+        checkLoop();
+      });
+
+      /* ==== SWIPE (TOUCH) ==== */
+      track.addEventListener("touchstart", (e) => {
+        stopAutoplay();
+        dragging = true;
+        startX = e.touches[0].clientX;
+        track.style.transition = "none";
+      });
+
+      track.addEventListener("touchend", (e) => {
+        if (!dragging) return;
+        dragging = false;
+        startAutoplay();
+        const diff = e.changedTouches[0].clientX - startX;
+        if (diff < -50) index++;
+        if (diff > 50) index--;
+        move();
+        checkLoop();
+      });
+
+      /* ==== AUTOPLAY ==== */
+      function startAutoplay() {
+        stopAutoplay();
+        autoplayInterval = setInterval(() => {
+          index++;
+          move();
+          checkLoop();
+        }, autoplayDelay);
+      }
+
+      function stopAutoplay() {
+        clearInterval(autoplayInterval);
+      }
+
+      carousel.addEventListener("mouseenter", stopAutoplay);
+      carousel.addEventListener("mouseleave", startAutoplay);
+
+      startAutoplay();
+    });
+  </script>
 </html>
