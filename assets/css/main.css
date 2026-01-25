@@ -1366,12 +1366,17 @@ section,
 }
 
 .lista-servicos {
-  list-style-type: disc; /* bolinha padrão */
-  padding-left: 20px; /* distância da bolinha */
-  /* color: #ffffff;  */
+  list-style-type: disc; 
+  padding-left: 20px; 
+
 }
 
 .lista-servicos li {
-  margin-bottom: 8px; /* espaço entre os itens */
+  margin-bottom: 8px;
   line-height: 1.5;
+  text-align: justify;
+}
+
+.text {
+  text-align: justify;
 }
