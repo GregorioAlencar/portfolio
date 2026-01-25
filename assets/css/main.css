@@ -1366,9 +1366,8 @@ section,
 }
 
 .lista-servicos {
-  list-style-type: disc; 
-  padding-left: 20px; 
-
+  list-style-type: disc;
+  padding-left: 20px;
 }
 
 .lista-servicos li {
@@ -1379,4 +1378,26 @@ section,
 
 .text {
   text-align: justify;
+}
+
+li a {
+  color: inherit;
+  text-decoration: none;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+.whatsapp-link {
+  color: #050d18;
+}
+
+.email-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
 }
