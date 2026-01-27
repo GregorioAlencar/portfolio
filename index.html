@@ -4,28 +4,81 @@
 
   <head>
     <meta charset="utf-8" />
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Portfólio - Gregório Alencar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>
+      Gregório Alencar | Desenvolvedor FullStack React, Next.js e Node.js
+    </title>
+
     <meta
       name="description"
-      content="Portfólio de Gregório Alencar, Desenvolvedor FullStack especializado em React, Next.js e aplicações web modernas."
+      content="Gregório Alencar é Desenvolvedor FullStack especializado em React, Next.js, TypeScript e Node.js. Veja portfólio, projetos reais e experiência profissional."
     />
-    <meta content="" name="keywords" />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <meta name="theme-color" content="#0b0f19" />
+    <meta name="author" content="Gregório Alencar" />
 
+    <link rel="canonical" href="https://gregorioalencar.com.br/" />
+
+    <!-- Open Graph -->
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Gregório Alencar | Desenvolvedor FullStack React, Next.js e Node.js"
+    />
+    <meta
+      property="og:description"
+      content="Portfólio e projetos reais. React, Next.js, TypeScript, Node.js e Laravel. Experiência em produtos digitais e sistemas em produção."
+    />
+    <meta property="og:url" content="https://gregorioalencar.com.br/" />
+    <meta property="og:site_name" content="Portfólio - Gregório Alencar" />
+    <meta
+      property="og:image"
+      content="https://gregorioalencar.com.br/assets/img/portfolio/og-image.jpg"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:image:alt"
+      content="Portfólio de Gregório Alencar, desenvolvedor FullStack (React, Next.js, Node.js)."
+    />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Gregório Alencar | Desenvolvedor FullStack"
+    />
+    <meta
+      name="twitter:description"
+      content="React, Next.js, TypeScript, Node.js e Laravel. Projetos em produção e cases reais."
+    />
+    <meta
+      name="twitter:image"
+      content="https://gregorioalencar.com.br/assets/img/portfolio/og-image.jpg"
+    />
+    <meta
+      name="twitter:image:alt"
+      content="Portfólio de Gregório Alencar, desenvolvedor FullStack."
+    />
+
+    <!-- Favicons (corrigido) -->
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="assets/img/portfolio/favicon-16x16.png"
+      href="assets/img/portfolio/favicon-32x32.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="16x16"
-      href="assets/img/portfolio/favicon-32x32.png"
+      href="assets/img/portfolio/favicon-16x16.png"
     />
-    <link rel="icon" type="image/png" href="assets/img/portfolio/favicon.ico" />
+    <link rel="icon" href="assets/img/portfolio/favicon.ico" />
 
+    <!-- Fonts -->
     <link href="https://fonts.googleapis.com" rel="preconnect" />
     <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
     <link
@@ -33,6 +86,7 @@
       rel="stylesheet"
     />
 
+    <!-- CSS -->
     <link
       href="assets/vendor/bootstrap/css/bootstrap.min.css"
       rel="stylesheet"
@@ -47,16 +101,39 @@
       rel="stylesheet"
     />
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
-
     <link href="assets/css/main.css" rel="stylesheet" />
 
-    <!-- =======================================================
-    * Nome do Template: iPortfolio
-    * URL do Template: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-    * Atualizado: 29 Jun 2024 com Bootstrap v5.3.3
-    * Autor: BootstrapMade.com
-    * Licença: https://bootstrapmade.com/license/
-    ======================================================== -->
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Gregório Alencar",
+        "jobTitle": "Desenvolvedor FullStack",
+        "url": "https://gregorioalencar.com.br/",
+        "image": "https://gregorioalencar.com.br/assets/img/portfolio/profile.jpg",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "São José dos Pinhais",
+          "addressRegion": "PR",
+          "addressCountry": "BR"
+        },
+        "sameAs": [
+          "https://www.linkedin.com/in/gregorio-alencar-711813110/",
+          "https://www.instagram.com/gregorioalencar07?igsh=aDh1N2J1Z3A2cmll",
+          "https://www.facebook.com/raymond.allencar?mibextid=ZbWKwL"
+        ],
+        "knowsAbout": [
+          "React",
+          "Next.js",
+          "TypeScript",
+          "Node.js",
+          "Laravel",
+          "API REST",
+          "MySQL"
+        ]
+      }
+    </script>
   </head>
 
   <body class="index-page">
@@ -66,7 +143,8 @@
       <div class="profile-img">
         <img
           src="assets/img/portfolio/profile.jpg"
-          alt=""
+          alt="Gregório Alencar - Desenvolvedor FullStack"
+          title="Gregório Alencar - Desenvolvedor FullStack"
           class="img-fluid rounded-circle"
         />
       </div>
@@ -83,18 +161,21 @@
           href="https://www.linkedin.com/in/gregorio-alencar-711813110/"
           class="linkedin"
           target="_blank"
+          rel="noopener noreferrer"
           ><i class="bi bi-linkedin"></i
         ></a>
         <a
           href="https://www.facebook.com/raymond.allencar?mibextid=ZbWKwL"
           class="facebook"
           target="_blank"
+          rel="noopener noreferrer"
           ><i class="bi bi-facebook"></i
         ></a>
         <a
           href="https://www.instagram.com/gregorioalencar07?igsh=aDh1N2J1Z3A2cmll"
           class="instagram"
           target="_blank"
+          rel="noopener noreferrer"
           ><i class="bi bi-instagram"></i
         ></a>
       </div>
@@ -137,8 +218,9 @@
     <main class="main">
       <section id="hero" class="hero section dark-background">
         <img
-          src="assets/img/portfolio/photo-beach2.jpg"
-          alt=""
+          src="assets/img/portfolio/capa-imagem.png"
+          alt="Programador analisando códigos e sistemas em múltiplos monitores em ambiente de alta tecnologia e inteligência artificial."
+          title="Programador analisando códigos e sistemas em múltiplos monitores em ambiente de alta tecnologia e inteligência artificial."
           data-aos="fade-in"
           class=""
         />
@@ -178,7 +260,9 @@
               <img
                 src="assets/img/my-profile-img.jpg"
                 class="img-fluid"
-                alt=""
+                alt="Foto de Gregório Alencar"
+                loading="lazy"
+                decoding="async"
               />
             </div>
             <div class="col-lg-8 content">
@@ -198,7 +282,7 @@
                         <a
                           href="https://wa.me/5541987311710"
                           target="_blank"
-                          rel="noopener"
+                          href="noopener"
                           class="whatsapp-link"
                         >
                           (41) 98731-1710
@@ -500,8 +584,8 @@
                 <p><em>Fiestou Ltda</em></p>
                 <ul>
                   <li class="text">
-                    Atuo como Desenvolvedor FullStack na plataforma Fiestou,
-                    um sistema em produção utilizado por usuários reais.
+                    Atuo como Desenvolvedor FullStack na plataforma Fiestou, um
+                    sistema em produção utilizado por usuários reais.
                   </li>
                   <li class="text">
                     Desenvolvimento de novas funcionalidades, melhorias de
@@ -545,17 +629,53 @@
                 <!-- imagens -->
                 <div class="carousel">
                   <button class="arrow left">&#10094;</button>
-
+                  <!-- Imagens do projeto Fiestou -->
                   <div class="carousel-track">
-                    <img src="assets/img/projects/fiestou/1.jpg" />
-                    <img src="assets/img/projects/fiestou/2.jpg" />
-                    <img src="assets/img/projects/fiestou/3.jpg" />
-                    <img src="assets/img/projects/fiestou/4.jpg" />
-                    <img src="assets/img/projects/fiestou/5.jpg" />
-                    <img src="assets/img/projects/fiestou/6.jpg" />
-                    <img src="assets/img/projects/fiestou/7.jpg" />
-                    <img src="assets/img/projects/fiestou/8.jpg" />
-                    <img src="assets/img/projects/fiestou/9.jpg" />
+                    <img
+                      src="assets/img/projects/fiestou/1.jpg"
+                      title="Banner do site Festou com ilustração de princesas em frente a um castelo e texto “Realizamos sonhos com uma festa de princesa."
+                      alt="Banner do site Festou com ilustração de princesas em frente a um castelo e texto “Realizamos sonhos com uma festa de princesa."
+                    />
+                    <img
+                      src="assets/img/projects/fiestou/2.jpg"
+                      alt="Grade de produtos do site Festou exibindo kits de decoração infantil para festas temáticas, com imagens, nomes e preços."
+                      title="Grade de produtos do site Festou exibindo kits de decoração infantil para festas temáticas, com imagens, nomes e preços."
+                    />
+                    <img
+                      src="assets/img/projects/fiestou/3.jpg"
+                      alt="Seção explicativa do site Festou mostrando em quatro etapas como montar uma festa, desde o pedido no site até a entrega."
+                      title="Seção explicativa do site Festou mostrando em quatro etapas como montar uma festa, desde o pedido no site até a entrega."
+                    />
+                    <img
+                      src="assets/img/projects/fiestou/4.jpg"
+                      alt="Seção do site Festou exibindo parceiros cadastrados e convite para fornecedores do setor de eventos se tornarem parceiros da plataforma."
+                      title="Seção do site Festou exibindo parceiros cadastrados e convite para fornecedores do setor de eventos se tornarem parceiros da plataforma."
+                    />
+                    <img
+                      src="assets/img/projects/fiestou/5.jpg"
+                      alt="Página de produtos do site Festou com decorações infantis temáticas, exibindo imagens, nomes, fornecedores e valores de aluguel."
+                      title="Página de produtos do site Festou com decorações infantis temáticas, exibindo imagens, nomes, fornecedores e valores de aluguel."
+                    />
+                    <img
+                      src="assets/img/projects/fiestou/6.jpg"
+                      alt="Página de dúvidas do site Festou com lista de perguntas frequentes sobre funcionamento, produtos, entrega, localização e custos."
+                      title="Página de dúvidas do site Festou com lista de perguntas frequentes sobre funcionamento, produtos, entrega, localização e custos."
+                    />
+                    <img
+                      src="assets/img/projects/fiestou/7.jpg"
+                      alt="Página “Sobre nós” do site Festou com descrição da plataforma e etapas do processo de contratação de serviços para festas."
+                      title="Página “Sobre nós” do site Festou com descrição da plataforma e etapas do processo de contratação de serviços para festas."
+                    />
+                    <img
+                      src="assets/img/projects/fiestou/8.jpg"
+                      alt="Tela de login do site Festou com formulário de e-mail e senha e opções de acesso com Google e Facebook."
+                      title="Tela de login do site Festou com formulário de e-mail e senha e opções de acesso com Google e Facebook."
+                    />
+                    <img
+                      src="assets/img/projects/fiestou/9.jpg"
+                      alt="Página de lojas parceiras do site Festou exibindo empresas cadastradas com nome, categoria e localização."
+                      title="Página de lojas parceiras do site Festou exibindo empresas cadastradas com nome, categoria e localização."
+                    />
                   </div>
 
                   <button class="arrow right">&#10095;</button>
@@ -623,15 +743,51 @@
                   <button class="arrow left">&#10094;</button>
 
                   <div class="carousel-track">
-                    <img src="assets/img/projects/hotel-morada-do-sol/1.jpg" />
-                    <img src="assets/img/projects/hotel-morada-do-sol/2.jpg" />
-                    <img src="assets/img/projects/hotel-morada-do-sol/3.jpg" />
-                    <img src="assets/img/projects/hotel-morada-do-sol/4.jpg" />
-                    <img src="assets/img/projects/hotel-morada-do-sol/5.jpg" />
-                    <img src="assets/img/projects/hotel-morada-do-sol/6.jpg" />
-                    <img src="assets/img/projects/hotel-morada-do-sol/7.jpg" />
-                    <img src="assets/img/projects/hotel-morada-do-sol/8.jpg" />
-                    <img src="assets/img/projects/hotel-morada-do-sol/9.jpg" />
+                    <img
+                      src="assets/img/projects/hotel-morada-do-sol/1.jpg"
+                      alt="Página inicial do Hotel Morada do Sol Ipanema com vista da praia e chamada para reserva."
+                      title="Hotel Morada do Sol Ipanema em Pontal do Paraná"
+                    />
+                    <img
+                      src="assets/img/projects/hotel-morada-do-sol/2.jpg"
+                      alt="Tipos de quartos do Hotel Morada do Sol Ipanema, incluindo quarto duplo, triplo e quádruplo."
+                      title="Quartos do Hotel Morada do Sol Ipanema"
+                    />
+                    <img
+                      src="assets/img/projects/hotel-morada-do-sol/3.jpg"
+                      alt="Área de recepção do Hotel Morada do Sol Ipanema com balcão de atendimento."
+                      title="Recepção do Hotel Morada do Sol Ipanema"
+                    />
+                    <img
+                      src="assets/img/projects/hotel-morada-do-sol/4.jpg"
+                      alt="Página sobre a história do Hotel Morada do Sol Ipanema com imagem antiga da pousada."
+                      title="História do Hotel Morada do Sol Ipanema"
+                    />
+                    <img
+                      src="assets/img/projects/hotel-morada-do-sol/5.jpg"
+                      alt="Seção institucional do Hotel Morada do Sol Ipanema com missão, visão e diferenciais."
+                      title="Missão e valores do Hotel Morada do Sol Ipanema"
+                    />
+                    <img
+                      src="assets/img/projects/hotel-morada-do-sol/6.jpg"
+                      alt="Página de serviços e infraestrutura do Hotel Morada do Sol Ipanema com informações das acomodações."
+                      title="Serviços e infraestrutura do Hotel Morada do Sol Ipanema"
+                    />
+                    <img
+                      src="assets/img/projects/hotel-morada-do-sol/7.jpg"
+                      alt="Página de experiências turísticas em Pontal do Paraná com imagens da praia e atrações locais."
+                      title="Turismo em Pontal do Paraná perto do hotel"
+                    />
+                    <img
+                      src="assets/img/projects/hotel-morada-do-sol/8.jpg"
+                      alt="Seção de perguntas frequentes do Hotel Morada do Sol Ipanema sobre reservas e serviços."
+                      title="Perguntas frequentes do Hotel Morada do Sol Ipanema"
+                    />
+                    <img
+                      src="assets/img/projects/hotel-morada-do-sol/9.jpg"
+                      alt="Página de contato do Hotel Morada do Sol Ipanema com telefone e e-mail."
+                      title="Contato do Hotel Morada do Sol Ipanema"
+                    />
                   </div>
 
                   <button class="arrow right">&#10095;</button>
@@ -696,15 +852,51 @@
                   <button class="arrow left">&#10094;</button>
 
                   <div class="carousel-track">
-                    <img src="assets/img/projects/leadsoft-website/1.jpg" />
-                    <img src="assets/img/projects/leadsoft-website/2.jpg" />
-                    <img src="assets/img/projects/leadsoft-website/3.jpg" />
-                    <img src="assets/img/projects/leadsoft-website/4.jpg" />
-                    <img src="assets/img/projects/leadsoft-website/5.jpg" />
-                    <img src="assets/img/projects/leadsoft-website/6.jpg" />
-                    <img src="assets/img/projects/leadsoft-website/7.jpg" />
-                    <img src="assets/img/projects/leadsoft-website/8.jpg" />
-                    <img src="assets/img/projects/leadsoft-website/9.jpg" />
+                    <img
+                      src="assets/img/projects/leadsoft-website/1.jpg"
+                      alt="Página inicial da LeadSoft com chamada para soluções tecnológicas e ilustração de astronauta no espaço."
+                      title="Soluções tecnológicas e desenvolvimento de software LeadSoft"
+                    />
+                    <img
+                      src="assets/img/projects/leadsoft-website/2.jpg"
+                      alt="Seção institucional da LeadSoft com descrição da empresa e imagem de ambiente de trabalho."
+                      title="Sobre a empresa LeadSoft"
+                    />
+                    <img
+                      src="assets/img/projects/leadsoft-website/3.jpg"
+                      alt="Portfólio de projetos da LeadSoft com exemplos de landing page, marketplace e sites desenvolvidos."
+                      title="Portfólio de projetos LeadSoft"
+                    />
+                    <img
+                      src="assets/img/projects/leadsoft-website/4.jpg"
+                      alt="Página de serviço Team as a Service da LeadSoft com explicação sobre squads de desenvolvimento."
+                      title="Team as a Service LeadSoft"
+                    />
+                    <img
+                      src="assets/img/projects/leadsoft-website/5.jpg"
+                      alt="Página de consultoria Imersão Tech da LeadSoft com descrição de soluções tecnológicas personalizadas."
+                      title="Consultoria tecnológica LeadSoft"
+                    />
+                    <img
+                      src="assets/img/projects/leadsoft-website/6.jpg"
+                      alt="Seção de metodologia da LeadSoft com etapas de diagnóstico, planejamento, desenvolvimento e aprimoramento."
+                      title="Metodologia de desenvolvimento LeadSoft"
+                    />
+                    <img
+                      src="assets/img/projects/leadsoft-website/7.jpg"
+                      alt="Seção institucional da LeadSoft com missão da empresa e apresentação do fundador."
+                      title="Missão e fundador da LeadSoft"
+                    />
+                    <img
+                      src="assets/img/projects/leadsoft-website/8.jpg"
+                      alt="Perfil do fundador da LeadSoft com foto e informações profissionais."
+                      title="Fundador da LeadSoft"
+                    />
+                    <img
+                      src="assets/img/projects/leadsoft-website/9.jpg"
+                      alt="Seção de clientes da LeadSoft com logos de empresas atendidas."
+                      title="Clientes da LeadSoft"
+                    />
                   </div>
 
                   <button class="arrow right">&#10095;</button>
@@ -759,15 +951,51 @@
                   <button class="arrow left">&#10094;</button>
 
                   <div class="carousel-track">
-                    <img src="assets/img/projects/castrol-website/1.jpg" />
-                    <img src="assets/img/projects/castrol-website/2.jpg" />
-                    <img src="assets/img/projects/castrol-website/3.jpg" />
-                    <img src="assets/img/projects/castrol-website/4.jpg" />
-                    <img src="assets/img/projects/castrol-website/5.jpg" />
-                    <img src="assets/img/projects/castrol-website/6.jpg" />
-                    <img src="assets/img/projects/castrol-website/7.jpg" />
-                    <img src="assets/img/projects/castrol-website/8.jpg" />
-                    <img src="assets/img/projects/castrol-website/9.jpg" />
+                    <img
+                      src="assets/img/projects/castrol-website/1.jpg"
+                      title="Tecnologia automotiva e inovação digital Castrol Brasil"
+                      alt="Interface digital com visualização 3D de carro em tablet, representando inovação tecnológica automotiva da Castrol Brasil."
+                    />
+                    <img
+                      src="assets/img/projects/castrol-website/2.jpg"
+                      alt="Linha de óleos lubrificantes Castrol com destaque para buscador de óleo automotivo e transmissão."
+                      title="Óleos lubrificantes automotivos Castrol"
+                    />
+                    <img
+                      src="assets/img/projects/castrol-website/3.jpg"
+                      alt="Categorias de produtos Castrol para automóveis, veículos comerciais e motocicletas."
+                      title="Produtos Castrol para carros, motos e veículos comerciais"
+                    />
+                    <img
+                      src="assets/img/projects/castrol-website/4.jpg"
+                      alt="Página de marcas Castrol com categorias de óleos para carros, motos, transmissão e uso comercial."
+                      title="Marcas e linhas de lubrificantes Castrol"
+                    />
+                    <img
+                      src="assets/img/projects/castrol-website/5.jpg"
+                      alt="Página de lubrificantes Castrol para carros com modelos de veículos e informações técnicas de óleo de motor."
+                      title="Óleo de motor Castrol para carros"
+                    />
+                    <img
+                      src="assets/img/projects/castrol-website/6.jpg"
+                      alt="Linhas de óleo de motor Castrol EDGE, MAGNATEC e GTX com descrição de desempenho e proteção do motor."
+                      title="Óleos Castrol EDGE, MAGNATEC e GTX"
+                    />
+                    <img
+                      src="assets/img/projects/castrol-website/7.jpg"
+                      alt="Pessoa observando o céu estrelado em conteúdo sobre tecnologia espacial e inovação da Castrol."
+                      title="Tecnologia espacial e inovação Castrol"
+                    />
+                    <img
+                      src="assets/img/projects/castrol-website/8.jpg"
+                      alt="Criança com fantasia de astronauta e foguete de papelão representando inovação e exploração espacial."
+                      title="Conceito de exploração espacial e inovação"
+                    />
+                    <img
+                      src="assets/img/projects/castrol-website/9.jpg"
+                      alt="Equipamentos espaciais e estação orbital representando tecnologia avançada e engenharia aeroespacial."
+                      title="Tecnologia aeroespacial e engenharia avançada"
+                    />
                   </div>
 
                   <button class="arrow right">&#10095;</button>
@@ -822,15 +1050,51 @@
                   <button class="arrow left">&#10094;</button>
 
                   <div class="carousel-track">
-                    <img src="assets/img/projects/ebbi-edu/1.jpg" />
-                    <img src="assets/img/projects/ebbi-edu/2.jpg" />
-                    <img src="assets/img/projects/ebbi-edu/3.jpg" />
-                    <img src="assets/img/projects/ebbi-edu/4.jpg" />
-                    <img src="assets/img/projects/ebbi-edu/5.jpg" />
-                    <img src="assets/img/projects/ebbi-edu/6.jpg" />
-                    <img src="assets/img/projects/ebbi-edu/7.jpg" />
-                    <img src="assets/img/projects/ebbi-edu/8.jpg" />
-                    <img src="assets/img/projects/ebbi-edu/9.jpg" />
+                    <img
+                      src="assets/img/projects/ebbi-edu/1.jpg"
+                      alt="Interface de dashboard educacional com filtros de curso e disciplina e indicador de desempenho do método 5S."
+                      title="Dashboard educacional com indicadores do método 5S"
+                    />
+                    <img
+                      src="assets/img/projects/ebbi-edu/2.jpg"
+                      alt="Painel em estilo kanban com conteúdos organizados por etapas do método 5S, incluindo utilização, ordenação, limpeza e autodisciplina."
+                      title="Painel kanban do método 5S para aprendizagem"
+                    />
+                    <img
+                      src="assets/img/projects/ebbi-edu/3.jpg"
+                      alt="Tela de perfil do usuário com dados pessoais, idioma e informações de matrícula em plataforma educacional."
+                      title="Perfil do estudante em plataforma educacional"
+                    />
+                    <img
+                      src="assets/img/projects/ebbi-edu/4.jpg"
+                      alt="Tela de conteúdo educacional do método 5S com mensagem motivacional e material didático ilustrado."
+                      title="Conteúdo educacional do método 5S"
+                    />
+                    <img
+                      src="assets/img/projects/ebbi-edu/5.jpg"
+                      alt="Tela de atividade do método 5S com pergunta aberta e campo de resposta em plataforma de aprendizagem."
+                      title="Atividade interativa do método 5S"
+                    />
+                    <img
+                      src="assets/img/projects/ebbi-edu/6.jpg"
+                      alt="Tela de conteúdo do método 5S sobre Seiketsu, com explicação sobre padronização e hábitos de organização."
+                      title="Conteúdo do método 5S sobre Seiketsu"
+                    />
+                    <img
+                      src="assets/img/projects/ebbi-edu/7.jpg"
+                      alt="Tela de questão do método 5S sobre padrões de limpeza e organização com campo de resposta."
+                      title="Questionário do método 5S Seiketsu"
+                    />
+                    <img
+                      src="assets/img/projects/ebbi-edu/8.jpg"
+                      alt="Tela de anotações da plataforma educacional com campo de texto para registro de observações do aluno."
+                      title="Área de anotações do estudante"
+                    />
+                    <img
+                      src="assets/img/projects/ebbi-edu/9.jpg"
+                      alt="Tela de login do aplicativo educacional com campos de e-mail e senha para acesso do estudante."
+                      title="Login do aplicativo educacional"
+                    />
                   </div>
 
                   <button class="arrow right">&#10095;</button>
