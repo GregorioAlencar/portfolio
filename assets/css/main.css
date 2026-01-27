@@ -557,6 +557,7 @@ section,
 }
 
 .hero img {
+  filter: brightness(65%);
   position: absolute;
   inset: 0;
   display: block;
